@@ -1,0 +1,34 @@
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.rgb{
+ width: 70%;
+}
+.hex{
+ width:30%;
+}
+.box{
+  border:1px solid #9d9d9d;
+  height: 40px;
+  width:40px;
+  margin-left:10px;
+  border-radius: 10%;
+}
+.color-display-box{
+  border:1px solid #9d9d9d;
+  height: 100px;
+  width:100px;
+  margin-top:25px;
+}
+label{
+  margin-right:10px;
+  width:15px;
+}
+.form-group{
+  display:flex;
+  align-items: center;
+}
+.display{
+  height:25px;
+}

@@ -1,0 +1,32 @@
+.color-r,.color-g,.color-b,.r-number,.g-number,.b-number{
+  display:inline-block;
+  padding:0px 5px 0px 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  color:white;
+}
+.color-r,.r-number{
+  background-color: red;
+}
+.color-g,.g-number{
+  background-color: green;
+}
+.color-b,.b-number{
+  background-color: blue;
+  padding:0px 7px 0px 7px;
+}
+.r-number,.g-number,.b-number{
+  width:50px;
+}
+.hex{
+  background: rgba(255,255,255,0.3);
+  display:inline-block;
+  padding:0px 15px 0px 15px;
+  font-size: 45px;
+  font-weight: bold;
+}
+/*問題：
+為何設定 
+body{
+  background-color:black;
+} 無作用*/
